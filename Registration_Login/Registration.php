@@ -46,8 +46,23 @@
 					}
 				}
 			}
+			/*if($isPost==true && $username!="" && $password!="" && $religion!="" && $nationality!="" && $email!="" && $gender!="" && $address!="")
+			{
+				echo "Display.php";
+			}
+			else
+			{
+				echo "#";
+			}*/
 		?>
-		<form action="#" method="post">
+		<form action="<?php if($isPost==true && $username!="" && $password!="" && $religion!="" && $nationality!="" && $email!="" && $gender!="" && $address!="")
+			{
+				echo "Display.php";
+			}
+			else
+			{
+				echo "#";
+			} ?>" method="post">
 		
 		<table>
 			<tr>
@@ -148,3 +163,4 @@
 		<br><input type="submit" name="btn_Reg" value="Register">
 		</form>
 	</body>
+</html>
