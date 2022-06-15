@@ -128,7 +128,7 @@
 					<td>
 						<input type="radio" name="gender" value="Male">Male
 						<input type="radio" name="gender" value="Female">Female
-						<input type="radio" name="gender" value="Other">No-rights
+						<input type="radio" name="gender" value="Other">Others
 						<?php
 							if($isPost==true && $gender=="")
 							{
