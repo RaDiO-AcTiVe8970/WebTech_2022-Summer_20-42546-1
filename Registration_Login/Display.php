@@ -1,10 +1,24 @@
 <?php
-	echo "Welcome to Profile!";
-	echo "Username is:".$_POST['uname']."<br>";
-	echo "Password is:".$_POST['pass']."<br>";
-	echo "Religion is:".$_POST['rel']."<br>";
-	echo "Nationality is:".$_POST['nt']."<br>";
-	echo "E-Mail is:".$_POST['email']."<br>";
-	echo "Gender is:".$_POST['gender']."<br>";
-	echo "Address is:".$_POST['address']."<br>";
+	session_start();
+	$x='Username';
+	$jsondata= file_get_contents("data.json") or die("File not found");
+	$phpdata= json_decode($jsondata,true);			//decode= json to arr or obj, encode=arr or obj to json
+	echo "Welcome to Profile!"."<br>";
+	foreach($phpdata as $b)
+		{
+			echo "Username is ".$b['Password']."<br>";
+			/*echo "Password is:".$b["Password"]."<br>";
+			echo "Religion is:".$b["Religion"]."<br>";
+			echo "Nationality is:".$b["Nationality"]."<br>";
+			echo "E-Mail is:".$b["Email"]."<br>";
+			echo "Gender is:".$b["Gender"]."<br>";
+			echo "Address is:".$b["Address"]."<br>";*/
+			/*
+			if($b==='Username')
+			{
+				echo $output;
+			}*/
+		} 
+	//print_r($phpdata);
+	//echo "Username is:".$phpdata['Username']."<br>";
 ?>
