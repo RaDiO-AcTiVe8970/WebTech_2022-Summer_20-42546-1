@@ -1,0 +1,40 @@
+{
+	"User":[
+	{
+		"Username":"a",
+		"Password":"a",
+		"Religion":"Islam",
+		"Nationality":"b",
+		"Email":"a@gmail.com",
+		"Gender":"Male",
+		"Address":"a"
+	},
+	{
+		"Username":"a",
+		"Password":"b",
+		"Religion":"Islam",
+		"Nationality":"b",
+		"Email":"a@gmail.com",
+		"Gender":"Male",
+		"Address":"a"
+	},
+	{
+		"Username":"a",
+		"Password":"c",
+		"Religion":"Hindu",
+		"Nationality":"a",
+		"Email":"a@gmail.com",
+		"Gender":"Male",
+		"Address":"a"
+	},
+	{
+		"Username":"mohit",
+		"Password":"123",
+		"Religion":"Islam",
+		"Nationality":"Bangladeshi",
+		"Email":"mohit.fahid@gmail.com",
+		"Gender":"Male",
+		"Address":"15-storied Building, Navy hospital gate, New Mooring."
+	}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"Jobs":[
+	{
+		"Company_Name":"Potatofied",
+		"Post":"Junior Engineer",
+		"Salary":"25000",
+		"Requirements":"BSc in CSE",
+		"Email":"a@gmail.com",
+		"Language":"C#",
+		"Skills":"Blender"
+	},
+	{
+		"Company_Name":"RadioActive",
+		"Post":"Junior Engineer",
+		"Salary":"20000",
+		"Requirements":"BSc in CSE",
+		"Email":"bb@gmail.com",
+		"Language":"Java",
+		"Skills":"Flutter"
+	},
+	{
+		"Company_Name":"SHayantoABS",
+		"Post":"Junior Engineer",
+		"Salary":"30000",
+		"Requirements":"BSc in CSE",
+		"Email":"x@gmail.com",
+		"Language":"Python",
+		"Skills":"Somehting"
+	}
+	]
+}

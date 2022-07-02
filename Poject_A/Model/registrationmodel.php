@@ -1,0 +1,11 @@
+<?php
+	$isPost=false;
+	$username='';
+	$password='';
+	$religion='';
+	$nationality='';
+	$email='';
+	$gender='';
+	$address='';
+	$error=0;
+?>
